@@ -29,3 +29,11 @@ const guests = {
 
   //Due to unforeseen political events, "CICERO" needs to be discreetly removed from the guest list.
   delete guests.CICERO;
+
+  //Assign ANTONY's profile to a new variable named generalProfile. Then, using this new variable, change the region of ANTONY to "Egypt".
+  const generalProfile = guests.ANTONY;
+  generalProfile.region = "Egypt";
+
+
+//After executing Step 5, what will be the region of ANTONY in the original guests object?
+//ANTONY's region in the guests object is 'Egypt' due to JavaScript objects being reference types. When assigned to a new variable, both variables point to the same object, so changes in one variable reflect in the other.
