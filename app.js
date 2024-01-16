@@ -23,3 +23,6 @@ const guests = {
   
   //Update CICERO's past gifts to include a "Golden Lyre".
   guests.CICERO.pastGifts.push("Golden Lyre");
+
+  //Retrieve the region of "ANTONY".
+  const antonyRegion = guests.ANTONY.region;
