@@ -26,3 +26,6 @@ const guests = {
 
   //Retrieve the region of "ANTONY".
   const antonyRegion = guests.ANTONY.region;
+
+  //Due to unforeseen political events, "CICERO" needs to be discreetly removed from the guest list.
+  delete guests.CICERO;
